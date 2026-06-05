@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "crafting_rework",
+	"version": "${version}",
+	"name": "Crafting Rework",
+	"description": "This mod is for easier and logical crafting recipes.",
+	"authors": [
+		"SDAMcraft"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/crafting_rework/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.sdam.crafting_rework.CraftingRework"
+		],
+		"client": [
+			"net.sdam.crafting_rework.CraftingReworkClient"
+		],
+		"fabric-datagen": [
+			"net.sdam.crafting_rework.CraftingReworkDataGenerator"
+		]
+	},
+	"mixins": [
+		"crafting_rework.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}
