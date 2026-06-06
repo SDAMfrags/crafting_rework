@@ -1,0 +1,21 @@
+{
+  "type" : "minecraft:crafting_shaped",
+  "patterns" : [
+    "###",
+    "###",
+    " S "
+
+  ],
+  "key" : {
+    "#" : {
+      "item": "minecraft:oak_planks"
+    },
+    "S" : {
+      "item": "minecraft:stick"
+    }
+  },
+  "result" : {
+    "item" : "minecraft:oak_sign",
+    "count" : 6
+  }
+}

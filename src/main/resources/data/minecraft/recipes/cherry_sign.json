@@ -1,0 +1,21 @@
+{
+  "type" : "minecraft:crafting_shaped",
+  "patterns" : [
+    "###",
+    "###",
+    " S "
+
+  ],
+  "key" : {
+    "#" : {
+      "item": "minecraft:cherry_planks"
+    },
+    "S" : {
+      "item": "minecraft:stick"
+    }
+  },
+  "result" : {
+    "item" : "minecraft:cherry_sign",
+    "count" : 6
+  }
+}
